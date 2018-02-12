@@ -64,7 +64,7 @@ public class BitWEByl2 {
 			}
 		}
 		else if(op.equals("div")){
-			if(secondnumdouble == 0.0 || secondnuminteger == 0){
+			if(num2.matches("0.0") || num2.matches("0")){
 				throw new Exception("Dividing by zero is undefined!");
 			}
 			else if(doublenum){
